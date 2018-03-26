@@ -17,6 +17,9 @@ var PostSchema = new Schema ({
 	photo: {
 		type: String
 	}
+	// date: {
+	// 	type: Date
+	// }
 });
 
 var Post = mongoose.model("Post", PostSchema);
